@@ -43,6 +43,8 @@
 0x801d2544 NETSHA1Update
 0x801d25f8 NETSHA1GetDigest
 
+0x80229e14 _ZdlPvj
+
 0x8023afe0 _ZN3EGG12SceneManager18changeSiblingSceneEi
 
 0x80386638 MaxEntryNum
@@ -50,3 +52,7 @@
 0x80386640 FstStart
 
 0x8057e804 _ZN4Kart8KartMove12calcPreDriftEv
+0x80588d28 _ZN4Kart9KartBoostC1Ev
+0x80588d28 _ZN4Kart9KartBoostC2Ev
+0x80588db0 _ZN4Kart9KartBoost8activateENS0_9FieldTypeEi
+0x80588e24 _ZN4Kart9KartBoost4calcERb
