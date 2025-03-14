@@ -95,6 +95,10 @@
 
 0x8071763c _ZN5Sound12SoundManager4calcEv
 
+0x80798848 _ZN4Item8KartItem5clearEb
+
+0x807bc97c _ZN4Item13ItemInventory9resetItemEv
+
 0x809bd728 _ZN6System10RaceConfig10s_instanceE
 0x809bd730 _ZN6System11RaceManager10s_instanceE
 
