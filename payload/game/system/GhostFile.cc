@@ -77,7 +77,7 @@ bool RawGhostFile::readFromNAND(const char *path) {
     NANDClose(&fileInfo);
 
     // The buffer size is only a maximum guarantee - we need a minimum guarantee too
-    return size > 0x8c && static_cast<size_t>(size) < sizeof(RawGhostFile);
+    return size > 0x8c && static_cast<size_t>(size) <= sizeof(RawGhostFile);
 }
 
 } // namespace System
